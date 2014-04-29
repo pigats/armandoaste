@@ -1,0 +1,23 @@
+title: "via Giulio Gabrielli"
+
+article: |
+  %header 
+    %h1 Via Giulio Gabrielli
+  %p Si attacca a destra di due caratteristici massi sotto la verticale del gran diedro e si sale per fessure e placche con arrampicata leggermente obliqua da sinistra verso destra, fino ad una fessura orizzontale su rocce compatte e nere. Si attraversa a sinistra fino ad un camino fessura di circa 80 metri. Si supera detta fessura, quindi si attraversa a sinistra fino a rocce facili e inclinate.
+  %p Si avanza direttamente sotto la verticale del diedro fino sotto a massi sporgenti. Si attraversa leggermente a destra, quindi si sale direttamente fino sotto a una fascia di tetti sporgenti e gialli.
+  %p Si attraversa a sinistra fino sotto ad un tetto giallo tagliato da una fessura. Lo si supera, quindi si prosegue a sinistra per una placca grigia e strapiombante e si giunge ad una comoda cengia.
+  %p Si avanza ora direttamente per placche fessurate fino a prendere il diedro vero e proprio.
+  %p Con arrampicata magnifica sempre sulla placca destra del diedro, si arriva fino sotto gli ultimi grandi strapiombi gialli che si superano direttamente giungendo sulle rocce grigie e fessurate che portano alla fine del %ldquo;gran diedro&rdquo;. Di qui per la via dello spigolo in vetta.
+  %p Settecento metri.
+
+map_src: http://maps.googleapis.com/maps/api/staticmap?center=46.195517,10.864449&zoom=10&size=209x189&maptype=terrain&sensor=false
+map_desc: |
+  Crozzon, Gruppo di Brenta
+  %br/
+  Gran Diedro Nord  &ndash; Via Giulio Gabrielli 
+
+history: 
+  - date: "1959, 25-27 Agosto"
+    desc: "Prima salita: A. Aste, M. Navasa"
+  - date: "1971, 13-17 Febbraio"
+    desc: "Prima invernale: Donato Ferrari, Mariano Frizzera, Sergio Martini"

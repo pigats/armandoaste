@@ -1,0 +1,33 @@
+@import compass
+
+#header-nav
+  float: right
+  margin: 9px 0 0
+  font:
+    weight: lighter 
+    size: .9em
+  +text-shadow(black 0 1px 0)
+  
+  ul
+    padding-left: 0
+    list-style-type: none
+    line-height: 30px
+    margin: 0
+    +clearfix
+    
+     
+#header-nav-main
+  text-align: right
+
+  li
+    display: inline-block
+
+    &:not(:last-child):after
+      content: "\00a0\00b7"
+
+    a, a:link, a:hover, a:visited
+      color: white
+      text-decoration: none
+
+    a.active
+      color: #ff008f

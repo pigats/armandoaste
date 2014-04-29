@@ -1,0 +1,32 @@
+ul#header-nav-subnav
+  border-top: 1px solid white
+  font-size: .8em
+  
+  li
+    float: left
+    width: 18px
+    height: 9px
+    border: 1px solid white                 
+      top: none
+      bottom: none              
+    margin-left: -1px
+    
+    a
+      text-indent: 18px
+      overflow: hidden
+      display: block
+      width: 18px
+      height: 27px
+    
+      &:hover, &.active
+        background: rgba(white, .3)
+    
+    
+    &.group 
+      width: auto
+      height: auto
+      border: none
+      margin-right: 5px
+      
+      &:not(:first-of-type)
+        margin-left: 10px

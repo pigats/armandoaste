@@ -1,0 +1,17 @@
+title: "via Heckmair"
+
+article: |
+  %header 
+    %h1 Via Heckmair (prima italiana)
+
+map_src: http://maps.googleapis.com/maps/api/staticmap?center=46.577523,8.005413&zoom=10&size=209x189&maptype=terrain&sensor=false
+map_desc: |
+  Eiger
+  %br/
+  Parete Nord &ndash; Via Heckmair  
+
+history: 
+  - date: "1938, 21-24 Luglio"
+    desc: "Prima salita: A. Heckmair, L. V&ouml;rg, F. Kasparek, H. Harrer"
+  - date: "1962, 11-16 Agosto"
+    desc: "Prima italiana: A. Aste, F. Solina, P. Acquistapace, A. Mellano, R. Perego, G. Airoldi"

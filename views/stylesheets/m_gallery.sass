@@ -1,0 +1,51 @@
+@import compass
+
+.gallery-thumbnail
+  display: inline-block
+  width: 40px
+  height: 36px
+  overflow: hidden
+  margin: 0 5px 5px 0
+  cursor: pointer
+
+.gallery-fullscreen-toggle
+  text-decoration: none
+  color: whiteSmoke
+
+.gallery-fullscreen-symbol
+  display: inline-block
+  +rotate(-45deg)
+
+.gallery-nav
+  display: block
+  position: fixed
+  width: 20px
+  height: 20px
+  padding: 10px
+  +border-radius(20px)
+  +box-shadow(whiteSmoke 0 0 4px)
+  background: rgba(#131313, .4)
+
+  font-size: 20px
+  text-align: center
+  text-decoration: none
+  color: whiteSmoke
+  line-height: 20px
+
+  &:hover
+    background: rgba(#131313, .5)
+    +box-shadow(whiteSmoke 0 0 7px)
+
+.gallery-nav-left
+  top: 50%
+  left: 10px
+
+.gallery-nav-right
+  top: 50%
+  right: 10px
+
+.gallery-nav-close
+  top: 10px
+  right: 10px
+
+

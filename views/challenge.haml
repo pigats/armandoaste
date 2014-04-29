@@ -1,0 +1,62 @@
+!!! 5
+%html
+  %head
+    - @title = @contents['title']
+  
+    = haml :_head
+
+  %body
+    = haml :_header
+    %a.gallery-nav.gallery-nav-left{style: 'display: none;', href: 'javascript:void(0)'}
+      &lang;
+    %a.gallery-nav.gallery-nav-right{style: 'display: none;', href: 'javascript:void(0)'}
+      &rang;
+    %a.gallery-nav.gallery-nav-close.gallery-fullscreen-toggle{style: 'display: none;', href: 'javascript:void(0)'}
+      &times;
+
+    %section#ascension.article-container
+      
+      %article#ascension-log.article
+        = haml @contents['article']
+        
+      %aside#ascension-more.article-aside
+ 
+        %section#gallery
+          %header
+            %h3 
+              Immagini
+              %a.gallery-fullscreen-toggle{href: 'javascript:void(0)'} 
+                &mdash;
+                %small tutto schermo
+                %span.gallery-fullscreen-symbol &harr; 
+
+          - @gallery.each_with_index do |img, i|
+            %img.gallery-thumbnail{src: img[:thumb_src], 'data-index' => i}
+
+        %section#ascension-details
+
+          %article#ascension-details-place
+            %header
+              %h3 Luogo
+            %img.map{src: @contents['map_src']}
+            = haml @contents['map_desc']           
+
+          %article#ascension-details-history
+            %header
+              %h3 Cronologia
+            %ul
+              - @contents['history'].each do |event|
+                %li 
+                  %time= event['date']
+                  = event['desc']
+
+    %footer
+      = haml :_footer
+      %script{type: 'text/javascript', src: '/javascripts/challenge.js'}   
+      :javascript
+        var images = #{@gallery.to_json};
+        var gallery = new Gallery(images, $('#header-background'));
+        $('.gallery-fullscreen-toggle').click( function() { gallery.toggle_fullscreen(); });
+        $('.gallery-nav-left').click( function() { gallery.previous(); })
+        $('.gallery-nav-right').click( function() { gallery.next(); });
+        $('.gallery-thumbnail').click( function() { gallery.render(parseInt($(this).attr('data-index'))); });

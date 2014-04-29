@@ -1,0 +1,52 @@
+@import compass
+
+.article-container
+  width: 960px
+  margin: -300px auto 0
+  overflow: visible
+
+.article, .article-aside
+  width: 50%
+  float: left  
+  padding: 0 20px     
+  +box-sizing(border-box)
+  font:
+    size: .8em
+    weight: lighter
+  line-height: 2em 
+  color: whiteSmoke
+
+
+  header
+
+    h1, h2, h3, h4
+      font-weight: lighter 
+    
+    h1
+      font-size: 2.5em
+    
+    h3
+      size: 1.5em
+
+.article
+  background: rgba(#131313, .4)
+
+.article-aside
+  margin-top: 100px
+  padding: 0 0 20px
+  border-left: 1px dashed #ff008f
+  font-size: .7em
+
+  section
+    padding: 0 20px
+    margin: 0 0 18px
+    +clearfix
+
+  header
+    border-bottom: 1px solid whiteSmoke 
+    letter-spacing: .2em
+    text-transform: uppercase
+    margin: 9px 0
+
+    h3 
+      margin: 0

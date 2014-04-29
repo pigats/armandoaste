@@ -1,0 +1,22 @@
+title: "via Rovereto"
+
+article: |
+  %header 
+    %h1 Via Rovereto
+  %p L&#39;itinerario si svolge al centro della parete, puntando, dalla base, a quella caratteristica chiazza biancastra al centro dei grandi strapiombi giallo-rossi a met&agrave; parete.
+  %p Si attacca in un diedro a destra del punto pi&ugrave; basso della parete. Si esce a sinistra, e si sale direttamente per placche fessurate fin sotto ad un grande tetto giallo fra placche nere che si superano direttamente sulla destra del tetto anzidetto (1 ch. malsicuro). Avanti ora direttamente fino a placche con fessure superficiali che portano agli strapiombi centrali.
+  %p Si sale un primo tiro per un diedro strapiombante fino ad un chiodo Cassin da ghiaccio. Si esce a sinistra e si sale direttamente per placche fino ad una zona di cornici. Si attraversa (ch.). Qualche metro a destra e si raggiunge un diedro biancastro sottostante un enorme tetto. Si rimonta il diedro (ch.) e si esce a destra. Avanti ancora obliquamente a destra fino ad una nicchia 6 metri sopra (ch.). Assicurati da un chiodo a pressione con moschettone qualche metro pi&ugrave; in alto a destra, si attraversa per 12 metri sempre a destra (1 ch.), quindi si sale ad un posto di sosta 5 metri sopra (tratto pi&ugrave; difficile della salita).
+  %p Da questo punto si prosegue direttamente per placche al centro della parete, fino a raggiungere la traversata, in alto, della via dello spigolo (oppure si possono salire direttamente le ultime rocce rosse), e per questa in vetta.
+  %p Trecentocinquanta metri.
+
+map_src: http://maps.googleapis.com/maps/api/staticmap?center=46.195517,10.864449&zoom=10&size=209x189&maptype=terrain&sensor=false
+map_desc: |
+  Campanil Basso, Gruppo di Brenta
+  %br/
+  Parete Ovest dello Spallone &ndash; Via Rovereto 
+
+history: 
+  - date: "1961, 10-11 Settembre"
+    desc: "Prima salita: A. Aste, A. Miorandi"
+  - date: "1963, 26 Giugno"
+    desc: "Seconda salita: A. Anghileri, B.Ferrario, G. Fumagalli, P.Negri, E. Panzeri"

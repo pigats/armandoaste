@@ -1,0 +1,22 @@
+%header#header
+  
+  %div#header-head 
+    
+    %nav#header-nav
+      %ul#header-nav-main
+        %li 
+          %a{:href => "/retaggio", :class => ("active" if request.path_info.eql?('/retaggio'))} Retaggio
+        %li
+          %a{:href => "/imprese/concordia", :class => ("active" if !params[:challenge].nil?)}
+            Imprese 
+        %li 
+          %a Libri
+      
+      = haml :"#{@submenu}" if !@submenu.nil?
+
+    %h2#header-title
+      %a#header-home-link{:href => "/"}
+        Armando
+        %b> Aste
+
+  %img#header-background{:src => @background, :class => params[:challenge]}

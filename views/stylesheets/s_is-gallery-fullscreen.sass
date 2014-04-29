@@ -1,0 +1,62 @@
+#header:after
+  opacity: 1
+  +transition-property(opacity)
+  +transition-duration(.7s)
+  +transition-delay(.3s)
+  +transition-timing-function(ease-in)
+
+#header-head, .tooltip
+  +transition-property(margin)
+  +transition-duration(1s)  
+
+.tooltip
+  margin-top: 3px
+
+#ascension-log, #ascension-more
+  position: relative
+  left: 0
+  max-height: 10000px
+  opacity: 1
+  overflow: hidden
+  +transition-property(left, opacity)
+  +transition-duration(1s, .5s)
+  +transition-delay(0, 0)
+
+.gallery-nav
+  display: none 
+
+.is-gallery-fullscreen 
+  
+  #header.is-gallery-fullscreen
+    overflow: visible
+
+  #header:before
+    position: fixed
+    top: 50%
+
+  #header:after
+    opacity: 0
+
+  #header-head, .tooltip
+    //margin-top: -68px
+
+  #ascension-log, #ascension-more
+    +transition-property(left, opacity, max-height)
+    +transition-duration(1s, .5s, .5s)
+    +transition-delay(0, 0, 0)
+    opacity: 0
+    max-height: 0
+
+  #ascension-log 
+    left: -2000px
+
+  #ascension-more
+    left: 2000px
+
+  #ascension-gallery
+    position: absolute
+    bottom: 0
+    right: 0
+
+  .gallery-nav
+    display: block !important
