@@ -1,7 +1,7 @@
 armandoaste
 ===========
 
-draft website for armando aste (see it live at armandoaste.herokuapp.com)
+draft website for armando aste (see it live at http://armandoaste.herokuapp.com)
 
 - install ruby 1.9
 - install bundler (gem install bundler)
